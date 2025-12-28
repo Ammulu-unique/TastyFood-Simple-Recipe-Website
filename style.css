@@ -1,0 +1,114 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.container{
+    height:100%;
+    width:100%;
+    overflow-x: none;
+    background: rgb(219, 215, 215);
+
+
+}
+
+.navcontainer{
+    width:100vw;
+    /* background-color:rgb(116, 70, 158); */
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height:80px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+nav{
+    width:100%;
+    padding-right:1.5rem;
+}
+
+#logo{
+    font-size:2.8rem;
+    color:white;
+}
+
+.navlist{
+    width:100%;
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    font-size:2.5rem;
+    padding:15px;
+
+}
+
+.navlist a{
+    text-decoration:none;
+    color:white;
+}
+
+#navitems{
+    display:flex;
+    gap:40px;
+}
+
+.footerbox{
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:azure;
+    width:100%;
+    text-align:center;
+    min-height:40px;
+}
+
+.footerbox p{
+    color:azure;
+    font-size:2rem;
+}
+
+.contentbox{
+    width:70%;
+    margin:auto;
+    /* border-right:solid 1px black;
+    border-left:solid 1px black; */
+    display:flex;
+    flex-direction:column;
+    gap:100px;
+    box-shadow:0px 0px 30px black;
+    padding:3rem;
+}
+
+.item{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.rightbox img{
+    width:300px;
+    height:300px;
+    border-radius:30px;
+    transition:all 0.5s linear 0s;
+
+}
+
+.rightbox img:hover{
+    transform:scale(1.1);
+}
+
+.leftbox h2{
+    font-size:2rem;
+}
+
+.ingredientbox{
+    font-size:1.3rem;
+}
+
+.processbox{
+    font-size:1.1rem;
+}
